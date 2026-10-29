@@ -1,0 +1,26 @@
+# Node.js dependencies and generated Next.js output
+/frontend/node_modules/
+/frontend/.next/
+/frontend/out/
+/frontend/coverage/
+/frontend/tsconfig.tsbuildinfo
+
+# Laravel dependencies, environment files, caches, logs, and user uploads
+/backend/vendor/
+/_laravel/vendor/
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.additions
+/_laravel/bootstrap/cache/*.php
+/_laravel/storage/logs/*.log
+/_laravel/storage/framework/cache/data/*
+/_laravel/storage/framework/sessions/*
+/_laravel/storage/framework/views/*.php
+/_laravel/storage/app/public/*
+
+# Local editor and operating system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,6 @@
+Collez dans DatabaseSeeder::run() :
+  \App\Models\Product::insert([
+    ['name'=>'Boubou Bazin Riche','slug'=>'boubou-bazin-riche','description'=>'Bazin riche brodé main.','price'=>45000,'stock'=>20,'active'=>true,'created_at'=>now(),'updated_at'=>now()],
+    ['name'=>'Thiouraye 100g','slug'=>'thiouraye-100g','description'=>'Encens traditionnel.','price'=>3500,'stock'=>100,'active'=>true,'created_at'=>now(),'updated_at'=>now()],
+  ]);
+puis : php artisan db:seed
